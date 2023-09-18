@@ -1,0 +1,9 @@
+#include<stdio.h>
+main()
+{
+    int height,base,area;
+    printf("enter the value of height and base respectively:");
+    scanf("%d %d",&height,&base);
+    area=(height*base)/2;
+    printf("area is %d",area);
+}

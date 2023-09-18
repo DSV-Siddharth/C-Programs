@@ -1,0 +1,30 @@
+# include <stdio.h>
+main()
+{
+int year;
+printf("\n enter any year");
+scanf("%d",&year);
+if("year %100==0")
+{
+if("year%400==0")
+{
+printf("\n entered year is leap");
+}
+else
+{
+printf("\n entererd is non leap year");
+}
+}
+else
+{
+if(year %4==0)
+{
+    printf("year % d is a leap year");
+}
+else
+{
+    printf("%d is leap year ",year);
+    printf("%d is non leap year");
+}
+}
+}

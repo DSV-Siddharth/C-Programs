@@ -1,0 +1,11 @@
+# include <stdio.h>
+ main()
+{
+float f,c;
+ printf("\n enter temperature in fahrenheit ");
+ scanf("%f",&f);
+ c=(f-32/1.8);
+ printf("\n equivalent degree celsius=%.3f" ,c);
+ 
+
+}
