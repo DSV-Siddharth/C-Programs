@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main() {
+    int a=59,b=13,temp;
+    a=a+b;
+    b=a-b;
+    a=a-b;
+    printf("\n Ater swapping A=%d B=%d",a,b);
+    
+}
